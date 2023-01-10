@@ -59,6 +59,8 @@ button:hover{
 }
 p{
     font-size: 30px;
+    text-align: center;
+    margin-bottom: 200px;
 }
 .directions{
     font-size: 20px;
