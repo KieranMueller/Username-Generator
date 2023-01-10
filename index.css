@@ -67,6 +67,7 @@ button{
     font-size: 15px;
     box-shadow:0 0 10px rgb(188, 188, 188);
     transition:.5s;
+    touch-action: manipulation;
 }
 button:hover{
     scale:1.1;
