@@ -1,0 +1,65 @@
+html{
+    font-family: sans-serif;
+    overflow-x: hidden;
+    background-color: rgb(78, 78, 78);
+}
+body{
+    margin:0;
+    color:bisque;
+}
+@media screen and (min-width:510px){
+    img{
+        visibility: hidden;
+    }
+    .landscape{
+        visibility:visible;
+    }
+}
+@media screen and (max-width:375px){
+    p{
+        font-size:20px;
+    }
+}
+img{
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: -5;
+    opacity: .2;
+}
+.container{
+    height:98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+button{
+    background-color: antiquewhite;
+    border:none;
+    height:40px;
+    width:120px;
+    font-size: 15px;
+    box-shadow:0 0 10px rgb(188, 188, 188);
+    transition:.5s;
+}
+button:hover{
+    scale:1.1;
+    cursor:pointer;
+}
+.usernameDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    font-size: 30px;
+}
+.directions{
+    font-size: 20px;
+}
