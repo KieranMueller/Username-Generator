@@ -28,6 +28,7 @@ img{
     bottom:0;
     z-index: -5;
     opacity: .2;
+    user-select: none;
 }
 .container{
     height:98vh;
